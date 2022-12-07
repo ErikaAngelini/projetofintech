@@ -1,0 +1,86 @@
+.cabecalho {
+    width: 100%;
+    height: 264px;
+}
+
+.menu, .sino {
+    width: 30px;
+    height: 30px;
+}
+
+
+.radius-header {
+    border-radius: 0 0 25px 25px;
+}
+
+.opcoes {
+    width: 92%;
+    height: 144px;
+}
+
+.imagem {
+    width: 110px;
+    height: 110px;
+}
+
+.bg-laranja {
+    background-color: #EDA176;
+}
+
+.bg-verde {
+    background-color: #5CEEA8;
+}
+
+.perfil {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 480px) {
+    .cabecalho {
+        height: 150px;
+    }
+
+    .menu, .sino {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto-head {
+        margin-left: 50px;
+    }
+
+    .etapa {
+        margin-right: 15px;
+    }
+
+    .opcoes {
+        width: 470px;
+        height: 144px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .perfil {
+        position: relative;
+        top: -63px;
+    }
+
+    .texto-head {
+        position: relative;
+        top: -50px;
+    }
+
+    .cabecalho {
+        height: 210px;
+    }
+}
