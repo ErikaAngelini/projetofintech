@@ -1,0 +1,22 @@
+.cabecalho {
+    width: 100%;
+    height: 80px;
+}
+
+.sino {
+    width: 30px;
+    height: 30px;
+}
+
+.radius-header {
+    border-radius: 0 0 25px 25px;
+}
+
+.botao {
+    width: 420px;
+    height: 40px;
+    background-color: #FFD233;
+    border: 0px;
+    color: black;
+    font-weight: bold;
+}
