@@ -1,0 +1,38 @@
+.cabecalho {
+    width: 100%;
+    height: 80px;
+}
+
+.sino {
+    width: 30px;
+    height: 30px;
+}
+
+.radius-header {
+    border-radius: 0 0 25px 25px;
+}
+
+.circulo {
+    border: 3px solid #00E878;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.circulo-amarelo {
+    border: 3px solid #FFD233;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.botao {
+    width: 90%;
+}
+
+.botao-amarelo {
+    background-color: #FFD233;
+    border: 0px;
+    color: black;
+    font-weight: bold;
+}
